@@ -1,0 +1,1 @@
+select * FROM matricula inner join estudiante on  matricula.idEstudiante = estudiante.idAlumnos;
