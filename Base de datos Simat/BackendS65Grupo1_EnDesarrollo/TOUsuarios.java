@@ -3,7 +3,6 @@ package TO;
 
 import java.sql.Date;
 
-
 public class TOUsuarios {
     
     private int  idUsuario;
@@ -24,7 +23,6 @@ public class TOUsuarios {
     }
 
     public TOUsuarios(String nombres, String apellidos, String tipoIdentificacion, String identificacion) {
-        
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.tipoIdentificacion = tipoIdentificacion;
@@ -152,6 +150,4 @@ public class TOUsuarios {
     public void setTipoUsuario(String tipoUsuario) {
         this.tipoUsuario = tipoUsuario;
     }
-
- 
 }
