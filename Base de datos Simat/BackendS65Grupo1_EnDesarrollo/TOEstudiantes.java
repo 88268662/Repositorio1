@@ -36,6 +36,13 @@ public class TOEstudiantes extends TOUsuarios {
         this.sedeEducativaCol = sedeEducativaCol;
         this.nid = nid;
     }
+ public int getIdEstudiante() { 
+        return idEstudiante;
+    }
+
+    public void setIdEstudiante(int idEstudiante) {
+        this.idEstudiante = idEstudiante;
+    }
 
 
     
