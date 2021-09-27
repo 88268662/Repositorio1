@@ -62,3 +62,27 @@ public class DAOUsuarios {
             return 0;
         }
     }
+    
+public boolean actualizarUsuarios(TOUsuarios toUsuario){
+        
+        String[] valores = {toUsuario.getTipoUsuario(), toUsuario.getNombres(), toUsuario.getGenero(), toUsuario.getApellidos(), toUsuario.getCorreo(), toUsuario.getDireccion(), toUsuario.getEps(), toUsuario.getEstadoCivil(), toUsuario.getIdentificacion(), toUsuario.getTipoIdentificacion(), toUsuario.getTelefono(), String.valueOf(toUsuario.getIdUsuario()), String.valueOf(toUsuario.getFechaNacimiento()) };
+    
+        try{
+            return con.actualizar(nombreTabla, valores, toUsuario.getIdUsuario());
+        }catch(Exception ex){
+            System.out.println("Error en DAOUsuarios.actuaizarUsuarios: " + ex.getMessage());
+            return false;
+        }
+    }
+    
+    public boolean eliminarUsuarios(int idUsuarios){
+        
+        try{
+            return con.eliminar(nombreTabla, idUsuarios);
+            }catch(Exception ex){
+            System.out.println("Error en DAOUsuarios.eliminarUsuarios: " + ex.getMessage());
+            return false;
+        }
+    
+    }
+    }
