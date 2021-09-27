@@ -52,4 +52,14 @@ public class TOEstudiantes extends TOUsuarios {
     public void setIdUsuariosEstudiante(int idUsuariosEstudiante) {
         this.idUsuariosEstudiante = idUsuariosEstudiante;
     }
+
+    public int getIdSede() {
+        return idSede;
+    }
+
+    public void setIdSede(int idSede) {
+        this.idSede = idSede;
+    }
+
+
 }
