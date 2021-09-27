@@ -61,5 +61,10 @@ public class TOEstudiantes extends TOUsuarios {
         this.idSede = idSede;
     }
 
+    public String getEstrato() {
+        return estrato;
+    }
 
+    public void setEstrato(String estrato) {
+        this.estrato = estrato;
 }
