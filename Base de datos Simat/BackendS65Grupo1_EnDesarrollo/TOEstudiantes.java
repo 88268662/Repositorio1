@@ -67,4 +67,47 @@ public class TOEstudiantes extends TOUsuarios {
 
     public void setEstrato(String estrato) {
         this.estrato = estrato;
+    }
+
+    public int getIdAcudiente() {
+        return idAcudiente;
+    }
+
+    public void setIdAcudiente(int idAcudiente) {
+        this.idAcudiente = idAcudiente;
+    }
+
+    public String getSedeEducativaCol() {
+        return sedeEducativaCol;
+    }
+
+    public void setSedeEducativaCol(String sedeEducativaCol) {
+        this.sedeEducativaCol = sedeEducativaCol;
+    }
+
+    public String getNid() {
+        return nid;
+    }
+
+    public void setNid(String nid) {
+        this.nid = nid;
+    }
+
+    public String getNombresAcudiente() {
+        return nombresAcudiente;
+    }
+
+    public void setNombresAcudiente(String nombresAcudiente) {
+        this.nombresAcudiente = nombresAcudiente;
+    }
+
+    public String getApellidosAcudiente() {
+        return apellidosAcudiente;
+    }
+
+    public void setApellidosAcudiente(String apellidosAcudiente) {
+        this.apellidosAcudiente = apellidosAcudiente;
+    }
+    
+      
 }
