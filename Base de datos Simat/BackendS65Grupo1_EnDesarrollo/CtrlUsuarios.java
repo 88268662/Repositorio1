@@ -13,7 +13,8 @@ public class CtrlUsuarios {
     public CtrlUsuarios() {
         this.usuariosDAO = new DAOUsuarios();
     }
-public ArrayList<TOUsuarios> consultarUsuarios(){
+    
+    public ArrayList<TOUsuarios> consultarUsuarios(){
         return usuariosDAO.consultarUsuarios();
     }
     
@@ -27,7 +28,6 @@ public ArrayList<TOUsuarios> consultarUsuarios(){
     
     public boolean eliminarUsuarios(int idUsuarios){
         return usuariosDAO.eliminarUsuarios(idUsuarios);
-    }    
-    
+    }
     
 }
